@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+AlgorithmicDeity
+index.html
+9.1.24
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithmic Deity - Wireframe</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        html {
+            scroll-behavior: smooth; /* Enables smooth scrolling */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="home">
+        <h1>Welcome to Algorithmic Deity</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gaming">Gaming</a></li>
+            <li><a href="#coding-modding">Coding/Modding</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Gaming Content Section -->
+    <section id="gaming" class="section">
+        <div class="content-wrapper">
+            <div class="two-column">
+                <!-- Twitch Section -->
+                <div class="column">
+                    <h3>My Twitch Channel:</h3>
+                    <!-- Embed Twitch Stream -->
+                    <div class="twitch-stream">
+                        <iframe
+                            src="https://player.twitch.tv/?channel=algorithmicdeity&parent=localhost"
+                            allowfullscreen
+                            title="Twitch Live Stream of AlgorithmicDeity">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Other Socials Section -->
+                <div class="column">
+                    <h3>Socials:</h3>
+                    <!-- Next Stream Info -->
+                    <div class="twitch-schedule-text">
+                        <p><strong>Next Stream:</strong> Tuesday, 6:30 PM - 8:30 PM CDT<br><strong>BG3 Dark Urge Playthrough</strong></p>
+                    </div>
+                    <div class="social-buttons">
+                        <!-- Twitch Buttons -->
+                        <a href="https://www.twitch.tv/subs/algorithmicdeity" target="_blank" class="social-button subscribe-button twitch-button">Subscribe on Twitch</a>
+                        <a href="https://www.twitch.tv/algorithmicdeity" target="_blank" class="social-button twitch-button">Visit My Twitch</a>
+
+                        <!-- YouTube Buttons -->
+                        <a href="https://www.youtube.com/channel/algorithmicdeity?sub_confirmation=1" target="_blank" class="social-button subscribe-button youtube-button">Subscribe on YouTube</a>
+                        <a href="https://www.youtube.com/channel/algorithmicdeity" target="_blank" class="social-button youtube-button">Visit My YouTube</a>
+
+                        <!-- Instagram Buttons -->
+                        <a href="https://www.instagram.com/algorithmicdeity" target="_blank" class="social-button follow-button instagram-button">Follow on Instagram</a>
+                        <a href="https://www.instagram.com/algorithmicdeity" target="_blank" class="social-button instagram-button">Visit My Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coding/Modding Section -->
+    <section id="coding-modding" class="section">
+        <div class="content-wrapper">
+            <h2 style="text-align: center; font-size: 2em;">Coding/Modding: Coming Soon</h2>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="content-wrapper">
+            <h3>About Me</h3>
+            <div class="two-column">
+                <!-- Text Column -->
+                <div class="column">
+                    <p>I’m Ashley, a passionate gamer, aspiring voice actor, and soon-to-be member of the modding community. My journey into voice acting, mocap, and pcap for video games is driven by a deep admiration for the kind of storytelling that leaves a lasting impact. Neil Newbon’s portrayal of Astarion is a perfect example—his work brought layers of emotion and complexity to a character in ways that challenged and moved the gaming community. This is the kind of difference I aspire to make, especially in how we address sensitive and important issues within our narratives.
+
+                    As I hone my coding skills, I’m also focused on building a safe and inclusive space for fellow gamers. My streams and videos are not just a place to share my love for games, but also a platform where I practice and refine my voice acting craft. My Discord community is open to all, embracing diversity and ensuring that everyone feels welcome—though we stand firm against any form of negativity or bullying.
+
+                    Join me weekly for epic RPGs, horror games, and life sims as we create, connect, and shape the worlds we love, one voice and one line of code at a time.</p>
+                </div>
+                <!-- Profile Image Column -->
+                <div class="column">
+                    <img src="Images/DSC09072.jpg" alt="Profile Image" style="width: 100%; border-radius: 5px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community and Contact Section -->
+<section id="community" class="section">
+    <div class="content-wrapper">
+        <div class="two-column">
+            <div class="column">
+                <h3>Join the Community</h3>
+                <div class="discord-widget">
+                    <iframe src="https://discord.com/widget?id=1276252128481902665&theme=dark" width="550" height="300" allowtransparency="true" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div id="contact" class="column">
+                <h3>Contact Me</h3>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message"></textarea><br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Algorithmic Deity. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
