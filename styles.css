@@ -13,16 +13,18 @@ body {
 /* Header with Background Image */
 header {
     width: 100%;
-    height: 300px; /* Adjust the height as needed */
+    height: 100vh; /* Set the height to 100% of the viewport height */
     background-image: url('C0CB2778-908A-4F47-95B8-43C39581FCC4.jpeg');
-    background-size: cover; /* Cover the entire area */
-    background-position: bottom; /* Adjust as needed */
+    background-size: contain; /* Ensure the entire image is visible */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
     color: white; /* Text color inside the header */
     text-align: center; /* Center the text */
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
+
 
 /* Embossed Header Text */
 header h1 {
