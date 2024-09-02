@@ -288,3 +288,77 @@ footer {
         box-shadow: 0 0 15px #406156, 0 0 30px #406156, 0 0 45px #406156;
     }
 }
+
+/* General Mobile Styles */
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 0;
+        margin: 0;
+        font-size: 16px; /* Adjust font size for readability on smaller screens */
+    }
+
+    /* Stack Sections Vertically */
+    .two-column {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        width: 100%; /* Make columns full-width on mobile */
+        margin-bottom: 20px; /* Add space between stacked sections */
+    }
+
+    /* Responsive Header */
+    header {
+        height: 200px; /* Adjust height for smaller screens */
+        text-align: center;
+        padding: 20px;
+        font-size: 1.5em; /* Adjust font size */
+    }
+
+    /* Responsive Navigation Menu */
+    nav.navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav.navbar ul li {
+        margin: 10px 0;
+    }
+
+    /* Responsive Twitch Stream */
+    .twitch-stream iframe {
+        width: 100%;
+        height: 200px; /* Adjust height for smaller screens */
+    }
+
+    /* Responsive Social Buttons */
+    .social-buttons {
+        grid-template-columns: 1fr; /* Stack buttons vertically */
+        row-gap: 10px; /* Reduce spacing between buttons */
+    }
+
+    /* Make Text Areas Full-Width */
+    form input[type="text"],
+    form input[type="email"],
+    form textarea,
+    form input[type="submit"] {
+        width: 90%; /* Adjust width for better spacing */
+    }
+
+    /* Center Content */
+    .content-wrapper {
+        padding: 10px;
+    }
+
+    /* Adjust Font Sizes */
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+/* Add additional styles for specific screen sizes as needed */
