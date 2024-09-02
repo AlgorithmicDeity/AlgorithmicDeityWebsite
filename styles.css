@@ -100,6 +100,35 @@ nav.navbar ul li a:hover {
     background-color: #555; /* Change background color on hover */
 }
 
+/* Media query to show hamburger icon and hide regular menu on small screens */
+@media (max-width: 768px) {
+    nav.navbar ul {
+        display: none; /* Hide regular menu */
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .menu-icon {
+        display: block; /* Show hamburger icon */
+    }
+    
+    .menu.active {
+        display: flex; /* Show the menu when active */
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    nav.navbar ul li {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    
+    nav.navbar ul li a {
+        padding: 10px 0;
+        width: 100%;
+    }
+}
 
 /* Content Sections */
 .section {
